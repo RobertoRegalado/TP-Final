@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TP-Final</string>
+        <string name="agregarciudad">Alta Ciudad</string>
+        <string name="nombre">Nombre</string>
+        <string name="cerrar">Cerrar</string>
+        <string name="eliminar">Borrar</string>
+        <string name="ciudad">Clima en</string>
+        <string name="humedad">Humedad</string>
+        <string name="presion">Presion Atmosferica</string>
+        <string name="temp">Temperatura</string>
+        <string name="temp_max">Temp. Max</string>
+        <string name="temp_min">Temp. Min</string>
+        <string name="centigrados">Centigrados</string>
+        <string name="guardar">Guardar</string>
+        <string name="app_name">World Weather</string>
 </resources>

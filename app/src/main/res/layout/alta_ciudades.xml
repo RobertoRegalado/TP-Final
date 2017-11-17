@@ -17,7 +17,7 @@
         android:layout_marginLeft="80dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="11dp"
-        android:text="Agregar Ciudad"
+        android:text="@string/agregarciudad"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -72,13 +72,13 @@
         android:id="@+id/btnGuardar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNombre"
+        android:layout_alignStart="@+id/txtNombre"
+        android:layout_below="@+id/txtNombre"
         android:layout_marginLeft="21dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="33dp"
-        android:text="Guardar"
-        android:layout_below="@+id/txtNombre"
-        android:layout_alignLeft="@+id/txtNombre"
-        android:layout_alignStart="@+id/txtNombre" />
+        android:text="@string/guardar" />
 
     <TextView
         android:id="@+id/textView7"
@@ -99,7 +99,7 @@
         android:layout_alignTop="@+id/txtNombre"
         android:layout_marginEnd="14dp"
         android:layout_toStartOf="@+id/txtNombre"
-        android:text="Nombre"
+        android:text="@string/nombre"
         android:textSize="18sp"
         android:textStyle="bold" />
 

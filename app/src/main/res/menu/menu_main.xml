@@ -7,13 +7,15 @@
         android:icon="@mipmap/ic_refresh"
         android:title="menu_refresh"
         app:showAsAction="always" />
-    <item android:id="@+id/mnuSalir"
-        android:title="Salir"
+    <item
+        android:id="@+id/mnuSalir"
         android:orderInCategory="102"
-        app:showAsAction="withText"/>
-    <item android:id="@+id/mnuGuardar"
+        android:title="@string/cerrar"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/mnuGuardar"
         android:orderInCategory="101"
-        android:title="Alta Ciudad"
-        app:showAsAction="withText"/>
+        android:title="@string/agregarciudad"
+        app:showAsAction="withText" />
         />
 </menu>

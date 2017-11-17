@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agregarciudad">Add city</string>
+    <string name="cerrar">Close</string>
+    <string name="eliminar">Delete</string>
+    <string name="ciudad">Weather in</string>
+    <string name="humedad">Humidity</string>
+    <string name="presion">Atmospheric pressure</string>
+    <string name="temp_max">Temp. Max</string>
+    <string name="temp_min">Temp. Min</string>
+    <string name="centigrados">Centigrade</string>
+    <string name="app_name">World Weather</string>
+    <string name="nombre">Name</string>
+    <string name="guardar">Save</string>
+    <string name="temp">Temperature</string>
+</resources>

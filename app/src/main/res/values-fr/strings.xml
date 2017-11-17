@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agregarciudad">Alta Ciudad</string>
+    <string name="nombre">Nom</string>
+    <string name="cerrar">Fermer</string>
+    <string name="eliminar">Effacer</string>
+    <string name="ciudad">Climat an</string>
+    <string name="humedad">Humidité</string>
+    <string name="presion">Pression Atmosphérique</string>
+    <string name="temp">Température</string>
+    <string name="temp_max">Temp. Max</string>
+    <string name="temp_min">Temp. Min</string>
+    <string name="centigrados">Centigrade</string>
+    <string name="app_name">World Weather</string>
+    <string name="guardar">Garder</string>
+</resources>

@@ -1,5 +1,6 @@
 package com.example.roberto.tp_final;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -82,13 +83,13 @@ public class MainActivity extends AppCompatActivity {
         sflLista.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                //cargarLista();
                 sflLista.setRefreshing(false);
             }
         });
         update();
     }
         private List<City> obtenerCiudades(){
+            cargarLista();
             //seleccionamos todos los registros
             Cursor cursor = db.rawQuery("SELECT * FROM ciudades",null);
             List<City> lista = new ArrayList<>();
@@ -135,6 +136,21 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         update();
         //Refresh your stuff here
+    }
+
+
+    private void cargarLista(){
+
+        Ciudades.add(new City(524901,"Moscu"));
+        Ciudades.add(new City(3835994,"Santa Rosa"));
+        Ciudades.add(new City(3164603,"Venecia"));
+        Ciudades.add(new City(5188351,"Egipto"));
+        Ciudades.add(new City(6251999,"Canada"));
+        Ciudades.add(new City(2643743,"Londres"));
+        Ciudades.add(new City(524901,"Moscu"));
+        Ciudades.add(new City(3834310,"Toay"));
+
+
     }
 
 }

@@ -33,6 +33,7 @@ public class Alta_Ciudad_SQlite extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlmacenaCiudad();
+                Volver();
             }
         });
 
@@ -50,15 +51,11 @@ public class Alta_Ciudad_SQlite extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.mnuVolver:
-                Intent pantalla = new Intent(this, MainActivity.class);
-                pantalla.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(pantalla);
+                Volver();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
-
-
     }
     //guarda datos de Ciudad en la Base
     public void AlmacenaCiudad() {
@@ -76,7 +73,11 @@ public class Alta_Ciudad_SQlite extends AppCompatActivity {
         db.close();
     }
 
-
+    public void Volver(){
+        Intent pantalla = new Intent(this, MainActivity.class);
+        pantalla.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(pantalla);
+    }
 
 }
 
